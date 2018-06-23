@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyterlab = "*"
+pandas = "*"
+altair = "*"
+xlrd = "*"
+cpi = "==0.0.5"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
